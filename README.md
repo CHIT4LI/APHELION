@@ -1,2 +1,1 @@
-# APHELION
-a wiki for all aphelion members!
+![APHELION's header](https://files.catbox.moe/4tmy45.jpeg)
