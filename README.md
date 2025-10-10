@@ -5,4 +5,6 @@
 
 ***
 
-— ☆ An all indie group consisting of 6 immortal members.
+*"You find yourself lost, wandering endlessly for who-knows-how-long."*
+
+*"Back to the [WIKI](https://github.com/CHIT4LI/APHELION/wiki]), I guess..."*
