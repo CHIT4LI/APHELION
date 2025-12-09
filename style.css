@@ -7,7 +7,7 @@ body{
 
 
 a:link {
-  color: white;
+  color: rgb(153, 153, 153);
   background-color: transparent;
   text-decoration: none;
 }
@@ -19,13 +19,13 @@ a:visited {
 }
 
 a:hover {
-  color: gray;
+  color: white;
   background-color: transparent;
   text-decoration: underline;
 }
 
 a:active {
-  color: gray;
+  color: rgb(206, 206, 206);
   background-color: transparent;
   text-decoration: underline;
 }
