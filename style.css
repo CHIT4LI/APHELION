@@ -34,3 +34,50 @@ img {
   width: 100%;
   height: auto;
 }
+
+.dropdown-menu ul {
+    list-style: none; /* Removes bullet points */
+    padding: 0;
+    margin: 0;
+}
+
+.dropdown-menu li {
+    position: relative;
+    display: block;
+    background-color: #000000;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 150px;
+    border: 1px solid #ccc;
+}
+
+.dropdown-menu li a {
+    text-decoration: none;
+    color: #ffffff;
+    display: block;
+}
+
+/* Hide the nested sub-menu by default */
+.dropdown-menu ul ul {
+    display: none;
+    position: absolute;
+    top: 100%; /* Positions the sub-menu right below the parent */
+    left: 0;
+    z-index: 10;
+}
+
+/* Show the sub-menu when the parent li is hovered */
+.dropdown-menu li:hover > ul {
+    display: block;
+}
+
+.dropdown-menu li:hover {
+    background-color: #6d6d6d;
+}
+
+.dropdown-menu > ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto; /* This centers the UL block horizontally */
+  display: table; /* Acts like a block with natural width */
+}
