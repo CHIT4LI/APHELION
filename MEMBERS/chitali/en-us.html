@@ -1,24 +1,132 @@
 <!doctype html>
 <html>
-  <title>
-    APHELION: An all-indie self-made group consisting of 6 multi-talented immortal members. 
-  </title>
 <head>
+    <title>APHELION: An all-indie self-made group consisting of 6 multi-talented immortal members.</title>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="../../style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <!--<link rel="icon" href="https://files.catbox.moe/kb2ccu.png" type="image/png">-->
+
+    <style>
+
+.content-row {
+  display: flex;
+  gap: 40px;
+  max-width: 1460px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+
+
+/* BANNER TEXT */
+.banner-inner {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.85);
+  padding: 25px 40px;
+  border-radius: 20px;
+  max-width: 90%;
+}
+
+/* TEXT STYLING */
+.banner-inner h1 {
+  margin: 0;
+  font-size: clamp(2rem, 5vw, 3.2rem);
+}
+
+.banner-inner p {
+  margin-top: 10px;
+  font-size: 1.1rem;
+  opacity: 0.8;
+}
+
+/* MOBILE TWEAKS */
+@media (max-width: 768px) {
+  #div3 {
+    min-height: 300px;
+  }
+
+  .banner-inner {
+    padding: 20px;
+  }
+}
+
+        .content-row {
+          display: flex;
+          align-items: flex-start;
+          gap: 40px;
+          max-width: 1500px;
+          margin: 20px auto;
+          padding: 0 20px;
+        }
+
+.slideshow-container {
+  flex: 1 1 600px; /* left column grows/shrinks, base 600px */
+}
+
+        .prev, .next {
+          cursor: pointer;
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%);
+          padding: 16px;
+          color: white;
+          font-weight: bold;
+          font-size: 18px;
+          transition: 0.6s ease;
+          user-select: none;
+        }
+
+        .prev { left: 0; }
+        .next { right: 0; }
+
+        .prev:hover, .next:hover {
+          background-color: rgba(0,0,0,0.8);
+        }
+
+        @media (max-width: 768px) {
+          .content-row {
+            flex-direction: column;
+          }
+        }
+        .header-text {
+  max-width: 1460px;
+  margin: 40px auto 20px;
+  padding: 0 20px;
+}
+
+.member-list {
+  flex: 1 1 600px; /* left column */
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+
+.member-list h4 {
+  margin: 10px 0;
+}
+
+.slideshow-container img {
+  width: 100%;
+  display: block;
+}
+
+.slideshow-container.small {
+  flex: 0 0 300px; /* fixed width */
+  position: relative; /* makes arrows stick inside the slideshow */
+}
+
+
+    </style>
 </head>
 
 <body>
+
 <nav class="dropdown-menu">
   <ul>
     <li>
-      <!-- Main menu item with a link if needed, otherwise just text -->
       <span>ENGLISH</span>
-      <!-- Submenu container -->
       <ul>
         <li><a href="ko.html">한국인</a></li>        
         <li><a href="ja.html">日本</a></li>
@@ -29,47 +137,65 @@
 </nav>
 
 
-    <!--<center><span style="position: relative; top:10px; left:10px" ><img class="roundrect" src="https://files.catbox.moe/y4euem.png"></span></center>-->
-    <style>
-#div3 {
-  border-radius: 25px;
-  background-image: url(https://files.catbox.moe/y4euem.png);
-  background-position: left top;
-  background-repeat: repeat;
-  padding: 20px; 
-  width: 100%;
-  max-width: 1460px;
-  height: auto;  
-  min-height: 450px;
-  margin: 0 auto;
-  margin-top: 20px;
-  overflow: hidden;
-}   
-</style>
-<div id="div3"></div>
-<!---->
-    <h2>" I'm just here for the fun. "</h2>
-    <hr>
-    <h2>TALENTS</h2>
-    <h4 align="left"><span style="position: relative; top: 5px; left: 30px;">001 : <a href="MEMBERS/akumu/en-us.html">Akumu Yamiko</a></h4></span>
 
-    <h4 align="left"><span style="position: relative; top: 5px; left: 30px;">002 : <a href="MEMBERS/aoki/en-us.html">Aoki Hino</a></h4></span>
 
-    <h4 align="left"><span style="position: relative; top: 5px; left: 30px;">003 : <a href="MEMBERS/azaria/en-us.html">Azaria Aceline</a></h4></span>
+    <div id="div3"></div>
+    <div class="header-text">
+        <img src="https://files.catbox.moe/y4euem.png" alt="banner" style="width:100%; height:100%; object-fit: cover; border-radius: 25px;">
+        <h3>" I'm just here for the fun. "</h3>
+        <hr>
+        <h2>004 : Chitali Aadhara🥀📼</h2>
+      </div>
+      </div>
+      <div class="content-row">
+  <div class="member-list">
+    <h4><span style="position: relative; top: 5px; left: 30px;">001 : <a href="MEMBERS/akumu/en-us.html">Akumu Yamiko</a></span></h4>
+    <h4><span style="position: relative; top: 5px; left: 30px;">002 : <a href="MEMBERS/aoki/en-us.html">Aoki Hino</a></span></h4>
+    <h4><span style="position: relative; top: 5px; left: 30px;">003 : <a href="MEMBERS/azaria/en-us.html">Azaria Aceline</a></span></h4>
+    <h4><span style="position: relative; top: 5px; left: 30px;">004 : <a href="MEMBERS/chitali/en-us.html">Chitali Aadhara</a></span></h4>
+    <h4><span style="position: relative; top: 5px; left: 30px;">005 : <a href="MEMBERS/miyamari/en-us.html">Miyamari</a></span></h4>
+    <h4><span style="position: relative; top: 5px; left: 30px;">006 : <a href="MEMBERS/valarie/en-us.html">Valarie Cinderfall</a></span></h4>
+  </div>
 
-    <h4 align="left"><span style="position: relative; top: 5px; left: 30px;">004 : <a href="MEMBERS/chitali/en-us.html">Chitali Aadhara</a></h4></span>
+  <div class="slideshow-container small">
+    <div class="mySlides fade">
+      <img src="https://files.catbox.moe/4cvhob.png" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+      <img src="https://files.catbox.moe/nr1p9z.png" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+      <img src="https://files.catbox.moe/lf0pbd.png" style="width:100%">
+    </div>
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+  </div>
+</div>
 
-    <h4 align="left"><span style="position: relative; top: 5px; left: 30px;">005 : <a href="MEMBERS/miyamari/en-us.html">Miyamari</a></h4></span>
 
-    <h4 align="left"><span style="position: relative; top: 5px; left: 30px;">006 : <a href="MEMBERS/valarie/en-us.html">Valarie Cinderfall</a></h4></span>
 
-    <!--info info info in <h4>-->
-    <hr>
-    <span style="position: relative; top: 5px; right: 30px;">
-    <h6 align="right">this website was coded by Chitali Aadhara!</h6>
-    <h6 align="right">If you would like to translate this Wiki, please go to their discord server and create a ticket~</h6>
-    </span>
+<hr>
+<h6 align="right">this website was coded by Chitali Aadhara!</h6>
+<h6 align="right">If you would like to translate this Wiki, please go to their discord server and create a ticket~</h6>
+
+
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) { showSlides(slideIndex += n); }
+function currentSlide(n) { showSlides(slideIndex = n); }
+
+function showSlides(n) {
+  let slides = document.getElementsByClassName("mySlides");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (let i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slides[slideIndex-1].style.display = "block";
+}
+</script>
+
 </body>
 </html>
-
-<!--unfinished! read this code later~-->
