@@ -40,14 +40,29 @@
   opacity: 0.8;
 }
 
-/* MOBILE TWEAKS */
+/* image, on the phone */
 @media (max-width: 768px) {
   #div3 {
-    min-height: 300px;
+    min-height: unset;
+  }
+  .content-row {
+    flex-direction: column-reverse;
+  }
+  .slideshow-container {
+    order: 1; 
+  }
+
+  .member-list {
+    order: 2; 
   }
 
   .banner-inner {
     padding: 20px;
+  }
+  .slideshow-container.small {
+    width: 300px;      
+    max-width: 90%;    
+    margin: 0 auto 20px;
   }
 }
 
@@ -113,10 +128,31 @@
 }
 
 .slideshow-container.small {
-  flex: 0 0 300px; /* fixed width */
+  flex: 0 0 300px; 
   position: relative; /* makes arrows stick inside the slideshow */
 }
 
+.dot {
+  cursor: pointer;
+  height: 5px;
+  width: 5px;
+  margin: 0 2px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+  background-color: #717171;
+}
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
 
     </style>
 </head>
@@ -144,17 +180,64 @@
         <img src="https://files.catbox.moe/y4euem.png" alt="banner" style="width:100%; height:100%; object-fit: cover; border-radius: 25px;">
         <h3>" I'm just here for the fun. "</h3>
         <hr>
-        <h2>004 : Chitali Aadhara🥀📼</h2>
+        <h2>004 : CHITALI AADHARA</h2>
       </div>
       </div>
       <div class="content-row">
   <div class="member-list">
-    <h4><span style="position: relative; top: 5px; left: 30px;">001 : <a href="MEMBERS/akumu/en-us.html">Akumu Yamiko</a></span></h4>
-    <h4><span style="position: relative; top: 5px; left: 30px;">002 : <a href="MEMBERS/aoki/en-us.html">Aoki Hino</a></span></h4>
-    <h4><span style="position: relative; top: 5px; left: 30px;">003 : <a href="MEMBERS/azaria/en-us.html">Azaria Aceline</a></span></h4>
-    <h4><span style="position: relative; top: 5px; left: 30px;">004 : <a href="MEMBERS/chitali/en-us.html">Chitali Aadhara</a></span></h4>
-    <h4><span style="position: relative; top: 5px; left: 30px;">005 : <a href="MEMBERS/miyamari/en-us.html">Miyamari</a></span></h4>
-    <h4><span style="position: relative; top: 5px; left: 30px;">006 : <a href="MEMBERS/valarie/en-us.html">Valarie Cinderfall</a></span></h4>
+    <hr>
+    <h4><span style="position: relative; top: 5px; left: 30px;">Chitali Aadhara was originally an completely independent VTuber, making themself the first to debut across APHELION.</h4>
+
+    <h2>GENERAL</h2>
+    <h4><span style="position: relative; top: 5px; left: 30px;">NAME: Chitali Aadhara</h4>
+    <h4><span style="position: relative; top: 5px; left: 30px;">OSHI MARK: 🥀📼</h4>
+    <h4><span style="position: relative; top: 5px; left: 30px;">PRONOUNS: THEY/THEM</h4>
+    <h4><span style="position: relative; top: 5px; left: 30px;">POSITION(s): TECH SUPPORT</h4>
+    <h4><span style="position: relative; top: 5px; left: 30px;">HEIGHT: 6'1 / 188 cm</h4>
+    <h4><span style="position: relative; top: 5px; left: 30px;">AGE: 359</h4>
+    <h4><span style="position: relative; top: 5px; left: 30px;">BIRTHDAY: 358</h4>
+
+    <h2>PROFILE</h2>
+    <hr>
+    <h4>
+      (Description before they joined APHELION)
+    <h4>
+      <span style="position: relative; top: 5px; left: 30px;">— ☆ A demon told from a timeline diffrent from now.
+    </h4>
+      <h4>
+      (Description after they joined APHELION)
+    </h4>
+    <h4>
+      <span style="position: relative; top: 5px; left: 30px;">— ☆ The carefree demon who had quite a past, now finally preforming without anyone holding them back.
+    </h4>
+
+    <h2>TIMELINE</h2>
+    <h3>2023</h3>
+    <h4><span style="position: relative; top: 5px; left: 30px;">- <i>“The start of a new star.”</i> After a long hiatus from content creation, they started to first appear on Twitter as a VTuber, spreading to other platforms on the 5th of August.</h4>
+  <h2>
+    TRIVIA
+  </h2>
+  <h4></h4>
+  <h2>
+    HASHTAGS
+  </h2>
+  <h4><span style="position: relative; top: 5px; left: 30px;">GENERAL: #ChitaliAadhara</h4>
+  <h4><span style="position: relative; top: 5px; left: 30px;">LIVE: #ChitaliOnAir</h4>
+  <h4><span style="position: relative; top: 5px; left: 30px;">CLIPS: #ChitalisVHSTapes</h4>
+  <h4><span style="position: relative; top: 5px; left: 30px;">MEME: T.B.D</h4>
+  <h4><span style="position: relative; top: 5px; left: 30px;">COSPLAY: #Aadharasrunway</h4>
+  <h4><span style="position: relative; top: 5px; left: 30px;">THUMBNAIL: T.B.D</h4>
+  <h4><span style="position: relative; top: 5px; left: 30px;">ART: #AADHARART</h4>
+
+  <h2>OFFICIAL LINKS</h2>
+  <h4><span style="position: relative; top: 5px; left: 30px;"><a href="https://chit4li.github.io/ChitaliAadhara">MAIN PAGE</a></h4>
+  <h4><span style="position: relative; top: 5px; left: 30px;"><a href="https://www.youtube.com/@ChitaliAadhara">YOUTUBE</a></h4>
+  <h4><span style="position: relative; top: 5px; left: 30px;"><a href="https://x.com/chitaliaadhara">TWITTER</a></h4>
+  <h4><span style="position: relative; top: 5px; left: 30px;"><a href="https://twitch.tv/chit4li">TWITCH</a></h4>
+  <h4><span style="position: relative; top: 5px; left: 30px;"><a href="https://discord.gg/jhpGKPJ5eM">DISCORD</a></h4>
+  <h4><span style="position: relative; top: 5px; left: 30px;"><a href="https://t.me/melencholy">TELEGRAM</a></h4>
+  <h4><span style="position: relative; top: 5px; left: 30px;"><a href="https://www.instagram.com/chitaliaadhara?igsh=MTllNnh3cWJkcXN0bQ%3D%3D&utm_source=qr">INSTAGRAM</a></h4>
+
   </div>
 
   <div class="slideshow-container small">
@@ -169,32 +252,38 @@
     </div>
     <a class="prev" onclick="plusSlides(-1)">❮</a>
     <a class="next" onclick="plusSlides(1)">❯</a>
+    <div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
   </div>
 </div>
 
 
 
 <hr>
+<a href="https://chit4li.github.io/APHELION">GO BACK</a>
 <h6 align="right">this website was coded by Chitali Aadhara!</h6>
 <h6 align="right">If you would like to translate this Wiki, please go to their discord server and create a ticket~</h6>
 
 
 <script>
-let slideIndex = 1;
-showSlides(slideIndex);
+let slideIndex = 0;
+showSlides();
 
-function plusSlides(n) { showSlides(slideIndex += n); }
-function currentSlide(n) { showSlides(slideIndex = n); }
-
-function showSlides(n) {
+function showSlides() {
+  let i;
   let slides = document.getElementsByClassName("mySlides");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (let i = 0; i < slides.length; i++) {
+  for (i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";
   }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
   slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 5000); // Change image every 2 seconds
 }
+
 </script>
 
 </body>
