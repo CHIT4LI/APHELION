@@ -22,7 +22,7 @@
 /* BANNER TEXT */
 .banner-inner {
   text-align: center;
-  background: rgba(255, 255, 255, 0.85);
+  background: black;
   padding: 25px 40px;
   border-radius: 20px;
   max-width: 90%;
@@ -149,6 +149,32 @@
   from {opacity: .4}
   to {opacity: 1}
 }
+
+.prev,
+.next {
+  background: none !important;
+  box-shadow: none !important;
+  outline: none !important;
+  text-decoration: none;
+}
+
+.prev:hover,
+.next:hover,
+.prev:focus,
+.next:focus,
+.prev:focus-visible,
+.next:focus-visible {
+  background: none !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+.prev,
+.next {
+  -webkit-tap-highlight-color: transparent;
+  display: none !important;
+}
+
 
     </style>
 </head>
