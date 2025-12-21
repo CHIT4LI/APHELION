@@ -115,3 +115,10 @@ body {
 .hide-preloader {
   display: none !important;
 }
+
+@media (max-width: 600px) {
+  #preloader-video {
+    width: 220px;     /* smaller = less weird */
+    max-width: 70vw;
+  }
+}
