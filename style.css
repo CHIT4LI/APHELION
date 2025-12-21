@@ -102,13 +102,21 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+
+  overflow: hidden;
 }
 
 #preloader-video {
-  width: 320px;
-  max-width: 80vw;   
+  width: 280px;
+  max-width: 75vw;
+  max-height: 75vh;
+
   height: auto;
+  object-fit: contain;
+
+  display: block;
 }
+
 
 
 /* Hide when done */
@@ -118,7 +126,8 @@ body {
 
 @media (max-width: 600px) {
   #preloader-video {
-    width: 220px;     /* smaller = less weird */
+    width: 200px;
     max-width: 70vw;
+    max-height: 60vh;
   }
 }
