@@ -160,6 +160,10 @@ hr {
   margin: 20px 0;
 }
 
+.important {
+    background-color: #6E0101;
+    color: white;
+}
 
     </style>
 </head>
@@ -193,7 +197,7 @@ hr {
       <div class="content-row">
   <div class="member-list">
     <hr>
-    <h4><span style="position: relative; top: 5px; left: 30px;">Chitali Aadhara was originally an completely independent VTuber, making themself the first to debut across APHELION.</h4>
+    <h4><span style="position: relative; top: 5px; left: 30px;">Chitali Aadhara was originally an completely independent VTuber, until they were recruited into APHELION in which made them the first to technically debut.</span></h4>
 
     <h2>GENERAL</h2>
     <h4><span style="position: relative; top: 5px; left: 30px;">NAME: Chitali Aadhara</h4>
@@ -224,7 +228,12 @@ hr {
   <h2>
     TRIVIA
   </h2>
-  <h4></h4>
+
+<span style="position: realtive; top: 5px; left: 30px;"> 
+    <h4>- Chitali's signature color is <mark class="important">#6E0101</mark></h4>
+    <h4>- Their fans are called "WITNESSES", previously called "SINNERS".</h4>
+</span>
+
   <h2>
     HASHTAGS
   </h2>
@@ -265,8 +274,7 @@ hr {
   <span class="dot" onclick="currentSlide(3)"></span>
 </div>
   </div>
-</div>
-
+    </div>
 
 
 <hr>
@@ -274,21 +282,45 @@ hr {
 <h6 align="right">this website was coded by Chitali Aadhara!</h6>
 <h6 align="right">If you would like to translate this Wiki, please go to their discord server and create a ticket~</h6>
 
+<meta property="og:title" content="APHELION: CHITALI AADHARA 🥀📼">
+<meta property="og:description" content="— ☆ The carefree demon who had quite a past, now finally preforming without anyone holding them back.">
+<meta property="og:url" content="https://CHIT4LI.github.io/APHELION/MEMBERS/chitali/en-us.html">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://files.catbox.moe/y4euem.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://files.catbox.moe/y4euem.png">
+<meta name="theme-color" content="#6e0101">
 
 <script>
-let slideIndex = 0;
-showSlides();
+let slideIndex = 1;
+showSlides(slideIndex);
 
-function showSlides() {
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
   let i;
   let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
   for (i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";
   }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
   slides[slideIndex-1].style.display = "block";
-  setTimeout(showSlides, 5000); // Change image every 2 seconds
+  dots[slideIndex-1].className += " active";
 }
 
 </script>
