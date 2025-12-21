@@ -19,6 +19,15 @@
 </div>
 
 <body>
+
+<div id="preloader-wrapper">
+  <video id="preloader-video" autoplay loop muted playsinline>
+    <source src="https://files.catbox.moe/xlcm29.mov" type="video/mp4">
+    <!-- Fallback for browsers that do not support the video tag -->
+    Your browser does not support HTML video.
+  </video>
+</div>
+
 <nav class="dropdown-menu">
   <ul>
     <li>
@@ -85,6 +94,20 @@
   content.style.display = 'block';
   document.body.style.overflow = 'visible'; // Restore scrolling
 });
+
+window.addEventListener('load', function() {
+  // Hide the preloader wrapper
+  const preloaderWrapper = document.getElementById('preloader-wrapper');
+  preloaderWrapper.classList.add('hide-preloader');
+
+  // Display the main content
+  const mainContent = document.getElementById('content');
+  mainContent.style.display = 'block';
+
+  // Restore scrolling
+  document.body.style.overflow = 'visible';
+});
+
 </script>
 
 <!--unfinished! read this code later~-->
