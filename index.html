@@ -7,6 +7,17 @@
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="icon" href="https://files.catbox.moe/yy9wqc.png" type="image/png">
 </head>
+
+<div class="video-loader" id="video-loader">
+  <!-- Use the <video> tag with autoplay, loop, and muted attributes for a seamless loader experience -->
+  <video autoplay loop muted playsinline>
+    <!-- Specify the video source(s) -->
+    <source src="https://files.catbox.moe/xlcm29.mov" type="video/mov">
+    <!-- Fallback text for browsers that don't support the video tag -->
+    Your browser does not support the video tag.
+  </video>
+</div>
+
 <body>
 <nav class="dropdown-menu">
   <ul>
@@ -61,5 +72,19 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://files.catbox.moe/4tmy45.jpeg">
 <meta name="theme-color" content="#ffffff">
+
+<script>
+  window.addEventListener('load', function() {
+  const loader = document.getElementById('video-loader');
+  const content = document.querySelector('.content');
+
+  // Fade out and hide the loader
+  loader.style.display = 'none';
+
+  // Show the main content
+  content.style.display = 'block';
+  document.body.style.overflow = 'visible'; // Restore scrolling
+});
+</script>
 
 <!--unfinished! read this code later~-->
