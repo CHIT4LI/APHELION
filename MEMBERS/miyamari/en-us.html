@@ -191,6 +191,14 @@ hr {
 
 <body>
 
+  <div id="preloader-wrapper">
+  <video id="preloader-video" autoplay loop muted playsinline>
+    <source src="https://files.catbox.moe/ua0cc1.mp4" type="video/mp4">
+    <!-- Fallback for browsers that do not support the video tag -->
+    Oops! Your browser does not support HTML video.
+  </video>
+</div>
+
 <nav class="dropdown-menu">
   <ul>
     <li>
@@ -307,6 +315,40 @@ function showSlides() {
   slides[slideIndex-1].style.display = "block";
   setTimeout(showSlides, 5000); // Change image every 2 seconds
 }
+
+  window.addEventListener('load', function() {
+  const loader = document.getElementById('video-loader');
+  const content = document.querySelector('.content');
+
+  // Fade out and hide the loader
+  loader.style.display = 'none';
+
+  // Show the main content
+  content.style.display = 'block';
+  document.body.style.overflow = 'visible'; // Restore scrolling
+});
+
+document.addEventListener('DOMContentLoaded', () => {
+  const video = document.getElementById('preloader-video');
+
+  if (video) {
+    video.play().catch(() => {
+    });
+  }
+});
+
+window.addEventListener('load', function() {
+  // Hide the preloader wrapper
+  const preloaderWrapper = document.getElementById('preloader-wrapper');
+  preloaderWrapper.classList.add('hide-preloader');
+
+  // Display the main content
+  const mainContent = document.getElementById('content');
+  mainContent.style.display = 'block';
+
+  // Restore scrolling
+  document.body.style.overflow = 'visible';
+});
 
 </script>
 
