@@ -19,6 +19,12 @@
   </video>
 </div>
 
+<body onload="myFunction()" style="margin:0;">
+
+<div id="loader"></div>
+
+<div style="display:none;" id="myDiv" class="animate-bottom">
+
 <nav class="dropdown-menu">
   <ul>
     <li>
@@ -34,6 +40,7 @@
   </ul>
 </nav>
 <!---->
+
 
     <center><img src="https://files.catbox.moe/4tmy45.jpeg"</center>
     <h2>" The point in the object’s orbit around the sun where it is farthest from the sun. "</h2>
@@ -58,6 +65,7 @@
     <h6 align="right">this website was coded by Chitali Aadhara!</h6>
     <h6 align="right">If you would like to translate this Wiki, please go to their discord server and create a ticket~</h6>
     </span>
+    </div>
 </body>
 </html>
 
@@ -107,6 +115,17 @@ window.addEventListener('load', function() {
   // Restore scrolling
   document.body.style.overflow = 'visible';
 });
+
+var myVar;
+
+function myFunction() {
+  myVar = setTimeout(showPage, 3000);
+}
+
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("myDiv").style.display = "block";
+}
 
 </script>
 
