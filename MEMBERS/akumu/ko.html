@@ -1,0 +1,354 @@
+<!doctype html>
+<html>
+<head>
+    <title>APHELION: An all-indie self-made group consisting of 6 multi-talented immortal members.</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../../style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+
+.content-row {
+  display: flex;
+  gap: 40px;
+  max-width: 1460px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+
+
+/* BANNER TEXT */
+.banner-inner {
+  text-align: center;
+  background: black;
+  padding: 25px 40px;
+  border-radius: 20px;
+  max-width: 90%;
+}
+
+/* TEXT STYLING */
+.banner-inner h1 {
+  margin: 0;
+  font-size: clamp(2rem, 5vw, 3.2rem);
+}
+
+.banner-inner p {
+  margin-top: 10px;
+  font-size: 1.1rem;
+  opacity: 0.8;
+}
+
+/* image, on the phone */
+@media (max-width: 768px) {
+  #div3 {
+    min-height: unset;
+  }
+  .content-row {
+    flex-direction: column-reverse;
+  }
+  .slideshow-container {
+    order: 1; 
+  }
+
+  .member-list {
+    order: 2; 
+  }
+
+  .banner-inner {
+    padding: 20px;
+  }
+  .slideshow-container.small {
+    width: 300px;      
+    max-width: 90%;    
+    margin: 0 auto 20px;
+  }
+}
+
+        .content-row {
+          display: flex;
+          align-items: flex-start;
+          gap: 40px;
+          max-width: 1500px;
+          margin: 20px auto;
+          padding: 0 20px;
+        }
+
+.slideshow-container {
+  flex: 1 1 600px; /* left column grows/shrinks, base 600px */
+}
+
+        .prev, .next {
+          cursor: pointer;
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%);
+          padding: 16px;
+          color: black;
+          font-weight: bold;
+          font-size: 18px;
+          transition: 0.6s ease;
+          user-select: none;
+        }
+
+        .prev { left: 0; }
+        .next { right: 0; }
+
+        @media (max-width: 768px) {
+          .content-row {
+            flex-direction: column;
+          }
+        }
+        .header-text {
+  max-width: 1460px;
+  margin: 40px auto 20px;
+  padding: 0 20px;
+}
+
+.member-list {
+  flex: 1 1 600px; /* left column */
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+
+.member-list h4 {
+  margin: 10px 0;
+}
+
+.slideshow-container img {
+  width: 100%;
+  display: block;
+}
+
+.slideshow-container.small {
+  flex: 0 0 300px; 
+  position: relative; /* makes arrows stick inside the slideshow */
+}
+
+.dot {
+  cursor: pointer;
+  height: 5px;
+  width: 5px;
+  margin: 0 2px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+  background-color: #717171;
+}
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.prev,
+.next {
+  background: none !important;
+  box-shadow: none !important;
+  outline: none !important;
+  text-decoration: none;
+}
+
+.prev:hover,
+.next:hover,
+.prev:focus,
+.next:focus,
+.prev:focus-visible,
+.next:focus-visible {
+  background: none !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+.prev,
+.next {
+  -webkit-tap-highlight-color: transparent;
+  display: none !important;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #fff; /* change color if needed */
+  margin: 20px 0;
+}
+
+.important {
+    background-color: #7C0AC3;
+    color: white;
+}
+
+    </style>
+</head>
+
+<body>
+
+  <div id="preloader-wrapper">
+  <video id="preloader-video" autoplay loop muted playsinline>
+    <source src="https://files.catbox.moe/ua0cc1.mp4" type="video/mp4">
+    <!-- Fallback for browsers that do not support the video tag -->
+    Oops! Your browser does not support HTML video.
+  </video>
+</div>
+
+<div id="content">
+<nav class="dropdown-menu">
+  <ul>
+    <li>
+      <span>한국인</span>
+      <ul>
+        <li><a href="index.html">ENGLISH</a></li>
+        <li><a href="index-ja.html">日本</a></li>
+        <li><a href="index-tl.html">TAGALOG</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+
+
+    <div id="div3"></div>
+    <div class="header-text">
+        <img src="https://files.catbox.moe/haeo6e.png" alt="banner" style="width:100%; height:100%; object-fit: cover; border-radius: 25px;">
+        <h3>" I'm broke from raising those puppets. "</h3>
+        <hr>
+        <h2>001 : 야미코 아쿠무</h2>
+      </div>
+      </div>
+      <div class="content-row">
+  <div class="member-list">
+    <hr>
+    <h4><span style="position: relative; top: 5px; left: 30px;"> Akumu Yamiko is a puppeteer of APHELION, also the backstage designer, making the other talents shine brighter than they ever had before.</h4>
+
+    <h2>GENERAL</h2>
+    <h4><span style="position: relative; top: 5px; left: 30px;">NAME: 야미코 아쿠무</h4>
+    <h4><span style="position: relative; top: 5px; left: 30px;">OSHI MARK: 🖌️🎎</h4>
+    <h4><span style="position: relative; top: 5px; left: 30px;">PRONOUNS: She/Her</h4>
+    <h4><span style="position: relative; top: 5px; left: 30px;">POSITION(s): Backstage Designer</h4>
+    <h4><span style="position: relative; top: 5px; left: 30px;">HEIGHT: 5'5 / 165 cm</h4>
+    <h4><span style="position: relative; top: 5px; left: 30px;">AGE: i forgot c:</h4>
+    <h4><span style="position: relative; top: 5px; left: 30px;">BIRTHDAY: July 14th</h4>
+
+    <h2>PROFILE</h2>
+    <hr>
+    <h4>
+      <span style="position: relative; top: 5px; left: 30px;">— ☆ [N/A] <!--SOMEONE HELP ME FIGURE IT OUT--></span>
+    </h4>
+
+    <h2>TIMELINE</h2>
+    <h3>2025</h3>
+    <h4><span style="position: relative; top: 5px; left: 30px;">- <i>“The start of a new star.”</i> On the 28th of July, Akumu first pulled the strings, making her the puppeteer in APHELION.</h4>
+  <h2>
+    TRIVIA
+  </h2>
+  <h4>- Akumu's signature color is <mark class="important">#7C0AC3</mark></h4>
+  <h2>
+    HASHTAGS
+  </h2>
+  <h4><span style="position: relative; top: 5px; left: 30px;">GENERAL: #AkumuYamiko</h4>
+  <h4><span style="position: relative; top: 5px; left: 30px;">LIVE: #AkumuLive</h4>
+  <h4><span style="position: relative; top: 5px; left: 30px;">CLIPS: #AkumuOn4k</h4>
+  <h4><span style="position: relative; top: 5px; left: 30px;">MEME: #Yami67</h4>
+  <h4><span style="position: relative; top: 5px; left: 30px;">COSPLAY: #YamikoLite</h4>
+  <h4><span style="position: relative; top: 5px; left: 30px;">THUMBNAIL: #YamiFrame</h4>
+  <h4><span style="position: relative; top: 5px; left: 30px;">ART: #Akutelier</h4>
+
+  <h2>OFFICIAL LINKS</h2>
+  <h4><span style="position: relative; top: 5px; left: 30px;"><a href="https://chit4li.github.io/APHELION/akumu/en-us.html">MAIN PAGE (will lead you right back to here!)</a></h4>
+  <h4><span style="position: relative; top: 5px; left: 30px;"><a href="https://x.com/AnakaHinako">TWITTER</a></h4>
+  <h4><span style="position: relative; top: 5px; left: 30px;"><a href="https://discord.gg/tfymtAKdgB">DISCORD</a></h4>
+  <h4><span style="position: relative; top: 5px; left: 30px"><a href="https://www.instagram.com/anaka.hinako?igsh=MWM3N3d4Nmd4eGprYQ==">INSTAGRAM</a></span></h4>
+
+  </div>
+
+  <div class="slideshow-container small">
+    <div class="mySlides fade">
+      <img src="https://files.catbox.moe/dbpqgo.png" style="width:100%">
+    </div>
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+    <div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+</div>
+  </div>
+</div>
+
+<hr>
+<a href="../../index-ko.html">GO BACK</a>
+<h6 align="right">이 웹사이트는 치탈리 아다라가 코딩했습니다!</h6>
+<h6 align="right">이 위키를 번역하고 싶으시다면, 해당 디스코드 서버를 방문하여 티켓을 생성해 주십시오~</h6>
+
+<meta property="og:title" content="APHELION: 야미코 아쿠무 🖌️🎎">
+<meta property="og:description" content="— ☆ Akumu Yamiko is a puppeteer, also the backstage designer of APHELION, making the other talents shine brigher than they ever had before.">
+<meta property="og:url" content="https://CHIT4LI.github.io/APHELION/MEMBERS/akumu/ko.html">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://files.catbox.moe/haeo6e.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://files.catbox.moe/haeo6e.png">
+<meta name="theme-color" content="#7C0AC3">
+
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 5000); // Change image every 2 seconds
+}
+
+  window.addEventListener('load', function() {
+  const loader = document.getElementById('video-loader');
+  const content = document.querySelector('.content');
+
+  // Fade out and hide the loader
+  loader.style.display = 'none';
+
+  // Show the main content
+  content.style.display = 'block';
+  document.body.style.overflow = 'visible'; // Restore scrolling
+});
+
+document.addEventListener('DOMContentLoaded', () => {
+  const video = document.getElementById('preloader-video');
+
+  if (video) {
+    video.play().catch(() => {
+    });
+  }
+});
+
+window.addEventListener('load', function() {
+  // Hide the preloader wrapper
+  const preloaderWrapper = document.getElementById('preloader-wrapper');
+  preloaderWrapper.classList.add('hide-preloader');
+
+  // Display the main content
+  const mainContent = document.getElementById('content');
+  mainContent.style.display = 'block';
+
+  // Restore scrolling
+  document.body.style.overflow = 'visible';
+});
+
+</script>
+</div>
+</body>
+</html>
