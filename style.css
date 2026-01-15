@@ -5,7 +5,6 @@ body{
     color: white;
 }
 
-
 a:link {
   color: rgb(153, 153, 153);
   background-color: transparent;
@@ -36,7 +35,7 @@ img {
 }
 
 .dropdown-menu ul {
-    list-style: none; /* Removes bullet points */
+    list-style: none; 
     padding: 0;
     margin: 0;
 }
@@ -57,16 +56,14 @@ img {
     display: block;
 }
 
-/* Hide the nested sub-menu by default */
 .dropdown-menu ul ul {
     display: none;
     position: absolute;
-    top: 100%; /* Positions the sub-menu right below the parent */
+    top: 100%; 
     left: 0;
     z-index: 10;
 }
 
-/* Show the sub-menu when the parent li is hovered */
 .dropdown-menu li:hover > ul {
     display: block;
 }
@@ -78,19 +75,17 @@ img {
 .dropdown-menu > ul {
   list-style: none;
   padding: 0;
-  margin: 0 auto; /* This centers the UL block horizontally */
-  display: table; /* Acts like a block with natural width */
+  margin: 0 auto; 
+  display: table; 
 }
-
 
 body {
   margin: 0;
-  overflow: hidden; /* Hide scrollbar during loading */
+  overflow: hidden; 
 }
 
-
 body {
-  overflow: hidden; /* Hide scrollbar while preloader is active */
+  overflow: hidden; 
 }
 
 #preloader-wrapper {
@@ -117,7 +112,9 @@ body {
   display: block;
 }
 
-
+*{
+  margin-top: 5px
+}
 
 /* Hide when done */
 .hide-preloader {
@@ -153,4 +150,8 @@ body {
 #myDiv {
   display: none;
   text-align: center;
+}
+
+#header {
+width: 60vw;
 }
