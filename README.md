@@ -1,30 +1,34 @@
 ![APHELION's header](https://files.catbox.moe/4tmy45.jpeg)
 <h4 align="center">
  " The point in the object’s orbit around the sun where it is farthest from the sun. "
-</h5>
+</h4>
 
-
+<h3 align="center">
 — ☆ An all-indie self-made group consisting of 6 multi-talented immortal members.
+</h3>
 
 <h2 align="center">
-TALENTS
+INFORMATION
 </h2>
+<p>
 
-Use the hyperlinks below or the sidebar to navigate to the Wiki pages of respective talents.
+This Github repository shows the HTML files of APHELION's website. 
 
-001 : [AZARIA ACELINE](https://github.com/CHIT4LI/APHELION/wiki/001-:-AZARIA-ACELINE-%F0%9F%A6%87%F0%9F%A5%BD) 🦇🥽
+While reviewing its code, please feel free to create a [pull request](https://github.com/CHIT4LI/APHELION/pulls) if you feel as something may lead into an error.
 
-002 : [AOKI HINO](https://github.com/CHIT4LI/APHELION/wiki/002-:-AOKI-HINO-%E2%98%81%25EF%25B8%258F%F0%9F%92%A4) ☁️💤
+If you would like to ask questions or also translate this website, go to Chitali's Discord server, [CHITALI'S VHS TAPE](https://discord.gg/jhpGKPJ5eM) and create a ticket.
 
-003 : [MIYAMARI](https://github.com/CHIT4LI/APHELION/wiki/003-:-MIYAMARI-%F0%9F%8E%A4%F0%9F%91%BE) 🎤👾
+</p>
+<hr>
+<h5 align="right">
 
-004 : [ANAKA HINAKO](https://github.com/CHIT4LI/APHELION/wiki/004-:-ANAKA-HINAKO-%F0%9F%96%8C%25EF%25B8%258F%F0%9F%8E%8E) 🎎🖌️
+ REDIRECT TO [WEBSIITE](https://chit4li.github.io/APHELION)
 
-005 : [CHITALI AADHARA](https://github.com/CHIT4LI/APHELION/wiki/005-:-CHITALI-AADHARA-%F0%9F%A5%80%F0%9F%93%BC) 🥀📼
+ REDIRECT TO [TWITTER](https://x.com/APHELION_EN)
 
-006 : [VALARIE CINDERFALL](https://github.com/CHIT4LI/APHELION/wiki/006-:-VALARIE-CINDERFALL-%F0%9F%94%AE%F0%9F%8C%8C)🔮🌌
+ REDIRECT TO [INSTAGRAM](https://www.instagram.com/aphelion_en?igsh=cXMzeTV3OHdva3o5)
 
-<head>
-        <!-- this the header! --!>
-<meta property="og:image" content="https://files.catbox.moe/4tmy45.jpeg”>
-</head>
+ MADE BY [CHITALI AADHARA](https://chit4li.github.io/ChitaliAadhara)
+ 
+</h5>
+
