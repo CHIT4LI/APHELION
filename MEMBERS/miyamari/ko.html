@@ -308,48 +308,6 @@ hr {
 <meta name="theme-color" content="#998AA7">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<script>
-let slideIndex = 0;
-showSlides();
-
-function showSlides() {
-  let i;
-  let slides = document.getElementsByClassName("mySlides");
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}
-  slides[slideIndex-1].style.display = "block";
-  setTimeout(showSlides, 5000);
-}
-
-  window.addEventListener('load', function() {
-  const loader = document.getElementById('video-loader');
-  const content = document.querySelector('.content');
-  loader.style.display = 'none';
-  content.style.display = 'block';
-  document.body.style.overflow = 'visible';
-});
-
-document.addEventListener('DOMContentLoaded', () => {
-  const video = document.getElementById('preloader-video');
-
-  if (video) {
-    video.play().catch(() => {
-    });
-  }
-});
-
-window.addEventListener('load', function() {
-  const preloaderWrapper = document.getElementById('preloader-wrapper');
-  preloaderWrapper.classList.add('hide-preloader');
-  const mainContent = document.getElementById('content');
-  mainContent.style.display = 'block';
-  document.body.style.overflow = 'visible';
-});
-
-</script>
 </div>
 </body>
 </html>
