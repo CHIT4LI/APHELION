@@ -27,10 +27,6 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 
-  window.addEventListener('load', function() {
-  const loader = document.getElementById('video-loader');
-  const content = document.querySelector('.content');
-
   // Fade out and hide the loader
   loader.style.display = 'none';
 
@@ -49,10 +45,14 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 window.addEventListener('load', function() {
+  const loader = document.getElementById('video-loader');
   const preloaderWrapper = document.getElementById('preloader-wrapper');
-  preloaderWrapper.classList.add('hide-preloader');
-  const mainContent = document.getElementById('content');
-  mainContent.style.display = 'block';
+  const content = document.getElementById('content') || document.querySelector('.content');
+
+  if (loader) loader.style.display = 'none';
+  if (preloaderWrapper) preloaderWrapper.classList.add('hide-preloader');
+  if (content) content.style.display = 'block';
+
   document.body.style.overflow = 'visible';
 });
 
