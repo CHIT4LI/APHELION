@@ -33,7 +33,7 @@ function showSlides(n) {
   // Show the main content
   content.style.display = 'block';
   document.body.style.overflow = 'visible'; // Restore scrolling
-});
+
 
 document.addEventListener('DOMContentLoaded', () => {
   const video = document.getElementById('preloader-video');
@@ -56,5 +56,14 @@ window.addEventListener('load', function() {
   document.body.style.overflow = 'visible';
 });
 
-document.body.style.overflow = '';
-document.documentElement.style.overflow = '';
+const video = document.getElementById('preloader-video');
+const preloader = document.getElementById('preloader-wrapper');
+const content = document.getElementById('content');
+
+if (video) {
+  video.addEventListener('canplaythrough', () => {
+    preloader.classList.add('hide-preloader');
+    content.style.display = 'block';
+    document.body.style.overflow = 'visible';
+  });
+}
