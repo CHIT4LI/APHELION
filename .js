@@ -1,3 +1,6 @@
+console.log("script start! please wait~");
+eruda.init()
+
 let slideIndex = 1;
 showSlides(slideIndex);
 
@@ -69,3 +72,4 @@ if (video) {
 }
 
 console.log("javascript loaded! ok to continue~");
+
