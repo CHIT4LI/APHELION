@@ -67,3 +67,5 @@ if (video) {
     document.body.style.overflow = 'visible';
   });
 }
+
+console.log("javascript loaded! ok to continue~");
