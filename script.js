@@ -1,5 +1,5 @@
-/* console.log("script start! please wait~");
-
+console.log("script start! please wait~");
+/* 
 let slideIndex = 1;
 showSlides(slideIndex);
 
@@ -84,15 +84,13 @@ document.addEventListener("DOMContentLoaded", function() {
     }, 2000);
 });
 
-
-
-console.log("javascript loaded! ok to continue~");
-
 */
 
-document.addEventListener("DOMContentLoaded", function() {
 
-  console.log("script start! please wait~");
+
+
+
+document.addEventListener("DOMContentLoaded", function() {
 
 
   let slideIndex = 1;
