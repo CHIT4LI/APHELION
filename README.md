@@ -1,4 +1,4 @@
-![APHELION's header](https://files.catbox.moe/4tmy45.jpeg)
+![APHELION's header](images/IMG_1030.jpeg)
 <h5 align="center">
  " The point in the object’s orbit around the sun where it is farthest from the sun. "
 </h5>
