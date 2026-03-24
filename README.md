@@ -1,4 +1,4 @@
-![APHELION's header](https://files.catbox.moe/4tmy45.jpeg)
+![APHELION's header](images/IMG_1030.jpeg)
 <h5 align="center">
  " The point in the object’s orbit around the sun where it is farthest from the sun. "
 </h5>
@@ -18,6 +18,8 @@ This Github repository shows the HTML files of APHELION's website.
 While reviewing its code, please feel free to create a [pull request](https://github.com/CHIT4LI/APHELION/pulls) if you feel as something may lead into an error.
 
 If you would like to ask questions or also translate this website, go to Chitali's Discord server, [CHITALI'S VHS TAPE](https://discord.gg/jhpGKPJ5eM) and create a ticket.
+
+<sub>**(I, CHITALI AADHARA, AM AWARE OF THE INFINITELY LOADING PAGES, AND CURRENTLY ARE WORKING ON A SOLUTION WITH BUN-MIN. DO NOT CREATE ISSUES OR TICKETS IN MY DISCORD SERVER REGARDING THIS, YOUR ISSUE/TICKET WILL BE CLOSED WITH NO RESPONSE.)**</sub>
 
 </p>
 <hr>
